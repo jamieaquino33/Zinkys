@@ -1,0 +1,64 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #343A40;
+  color: rgb(255, 255, 255);
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.addressName {
+  color: rgb(255, 255, 255);
+}
+
+#locationNum{
+  padding-top: 8px;
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#hours {
+  font-size: 11pt;
+  color: white;
+  list-style-type: none;
+  list-style: none;
+  padding-bottom: 20px;
+  margin-top: -30px;
+  text-align: left;
+  display: flex;
+  
+  
+}
+
+#list1 {
+  margin-right: 60px;
+  font-size: 20px; 
+}
+
+li {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+ #number{
+   font-size: 100%;
+ }
+ .addressName{
+   font-size: 100%;
+ }
+}
+
+@media (max-width:480px) {
+  #hours{
+    font-size: 6pt;
+  }
+  #locationNum{
+    font-size: 6pt;
+    width: 60%;
+  }
+}
+

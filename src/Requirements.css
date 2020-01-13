@@ -1,0 +1,90 @@
+#img {
+    float: center;
+    border: 4px black solid;
+    height: 350px; 
+    width: 290px;
+    margin-bottom: 100px;
+}
+
+
+
+.tempTest {
+    text-align: inherit;
+    margin-left: 2pt;
+    margin-bottom: 15px;
+    font-family: 'Sanchez', serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.par {
+    padding-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    font-family: 'Sanchez', serif;
+}
+
+
+.titleReq {
+    text-decoration: underline;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Sanchez', serif;
+}
+
+.vaccTitle {
+    text-align: center;
+    list-style-type: none;
+    margin: 20px;
+    font-family: 'Sanchez', serif;
+   
+}
+
+.reqList {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Sanchez', serif;
+    margin-right: 30px;
+    margin-bottom: 30px;
+   
+}
+
+/* body, html { 
+    background: url("./Images/pawPrintsBackground.png")repeat-x 0 0;
+    /* background:url('./Images/Zinkys20.jpg'); */
+    /*padding: 0;
+    z-index: -1; 
+    background-color: #ffcc32; 
+} */
+
+
+
+@media only screen and (max-width: 1500px) {
+    body,html {
+        background: #ffcc32;
+        margin: 0;
+    }
+    .tempTest {
+        text-align: inherit;
+        margin-left: 0;
+    }
+    
+    .par {
+        padding-right: 0;
+        margin-left: 0
+    }
+    
+  }
+
+  @media (max-width:480px) {
+    .par{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    #img2{
+        display: none;
+    }
+  }
+
